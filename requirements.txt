@@ -1,6 +1,6 @@
-arrow>=0.7.0
-Django>=1.9.0
-Jinja2>=2.8
-django-jinja==latest
-djangorestframework==3.3.1
-haystack==latest
+arrow
+Django<2.0
+Jinja2
+django-jinja
+djangorestframework
+haystack

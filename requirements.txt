@@ -3,4 +3,7 @@ Django<2.0
 Jinja2
 django-jinja
 djangorestframework
-haystack
+django-haystack
+django-allauth
+django-hijack
+whoosh

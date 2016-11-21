@@ -3,7 +3,12 @@ Django<2.0
 Jinja2
 django-jinja
 djangorestframework
+markdown
+django-filter
 django-haystack
 django-allauth
 django-hijack
+django-redis
 whoosh
+django-debug-toolbar
+gunicorn

@@ -25,7 +25,8 @@ else:
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-
+# Base Domain Name. App urls will be built from this.
+BASE_DOMAIN = 'stmo.co'
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/{{ docs_version }}/howto/deployment/checklist/
@@ -40,6 +41,7 @@ else:
     DEBUG = False
 
 ALLOWED_HOSTS = []
+INTERNAL_IPS = ['127.0.0.1']
 
 # Time Formats - Designed to play nice with Jinja2, not so much Django Templates
 DATE_FORMAT = 'MMM DD, YYYY'
@@ -60,8 +62,17 @@ INSTALLED_APPS = [
     'rest_framework',
 ]
 
+django-haystack
+django-allauth
+django-hijack
+django-redis
+
+
 if IN_DEVELOPMENT:
-    INSTALLED_APPS += ['django.contrib.staticfiles',]
+    INSTALLED_APPS += [
+                        'django.contrib.staticfiles',
+                        'debug_toolbar',
+                      ]
 
 MIDDLEWARE_CLASSES = [
     'django.middleware.security.SecurityMiddleware',
@@ -73,26 +84,20 @@ MIDDLEWARE_CLASSES = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
+if IN_DEVELOPMENT:
+    MIDDLEWARE_CLASSES += ['debug_toolbar.middleware.DebugToolbarMiddleware', ]
+
 ROOT_URLCONF = '{{ project_name }}.urls'
 
 TEMPLATES = [
     {
         'NAME': 'jinja2',
         'BACKEND': 'django_jinja.backend.Jinja2',
-        'DIRS': [os.path.join(BASE_DIR, 'templates/')],
+        'DIRS': [os.path.join(BASE_DIR, 'jinja2/')],
         'APP_DIRS': True,
         'OPTIONS': {
-            'match_extension': '.j2',
+            # 'match_extension': '.j2',
             # 'match_regex': r'.*\.j2$',
-            'globals': {
-                'human_diff': 'canvas_sync.jinja2.human_diff',
-                'human_diff_to_now': 'canvas_sync.jinja2.human_diff_to_now',
-                'format_date': 'canvas_sync.jinja2.format_date',
-                'format_datetime': 'canvas_sync.jinja2.format_datetime',
-                'format_time': 'canvas_sync.jinja2.format_time',
-                'humanize': 'canvas_sync.jinja2.humanize',
-                'quill': 'canvas_sync.jinja2.quill',
-            },
             'auto_reload': DEBUG,
         },
     },
@@ -174,12 +179,23 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/{{ docs_version }}/howto/static-files/
+if IN_DEVELOPMENT:
+    STATIC_URL = '/static/'
+else:
+    STATIC_URL = 'https://static.{{ project_name }}.{}/'.format(BASE_DOMAIN)
 
-STATIC_URL = '/static/'
-STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
-# TODO: STATIC Files and Media Directores
+STATICFILES_DIRS = [os.path.join(BASE_DIR, '../static')]
+STATIC_ROOT = os.path.join(BASE_DIR, '../../static')
+
+# Media Files
+if IN_DEVELOPMENT:
+    MEDIA_URL = '/media/'
+else:
+    MEDIA_URL = 'https://media.{{ project_name }}.{}/'.format(BASE_DOMAIN)
+MEDIA_ROOT = os.path.join(BASE_DIR, '../../media')
 
 # Haystack
+# https://django-haystack.readthedocs.io/en/v2.5.0/index.html
 if IN_DEVELOPMENT:
     HAYSTACK_CONNECTIONS = {
         'default': {
@@ -187,6 +203,7 @@ if IN_DEVELOPMENT:
             'PATH': os.path.join(os.path.dirname(__file__), 'whoosh_index'),
         },
     }
+    HAYSTACK_SIGNAL_PROCESSOR = 'haystack.signals.RealtimeSignalProcessor'
 else:
     HAYSTACK_CONNECTIONS = {
         'default': {
@@ -195,3 +212,13 @@ else:
             'INDEX_NAME': '{{ project_name }}',
         },
     }
+
+# REST Framework
+# See http://www.django-rest-framework.org/api-guide/settings/ for more settings
+REST_FRAMEWORK = {
+    # Use Django's standard `django.contrib.auth` permissions,
+    # or allow read-only access for unauthenticated users.
+    'DEFAULT_PERMISSION_CLASSES': [
+        'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'
+    ]
+}

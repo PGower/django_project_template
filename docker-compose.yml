@@ -1,1 +1,9 @@
-docker-compose.yml
+
+build app from here
+need es for elastic search
+redis
+static hosts for static / media
+kibana for es
+redis commander for redis
+postgres
+pgweb postgres web ui

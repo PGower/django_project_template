@@ -1,0 +1,653 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"seconds",
+				"seconds_in_future"
+			],
+			[
+				"re",
+				"relationship_name"
+			],
+			[
+				"rec",
+				"recieve_email_notifications"
+			],
+			[
+				"rand",
+				"random_background_url"
+			],
+			[
+				"p",
+				"pickerpage"
+			],
+			[
+				"daygri",
+				"daygrid_update_count"
+			],
+			[
+				"notify",
+				"notify_care_givers"
+			],
+			[
+				"not",
+				"notify_care_givers"
+			],
+			[
+				"notify_",
+				"notify_care_givers"
+			],
+			[
+				"family_im",
+				"family_import_form"
+			],
+			[
+				"con",
+				"contact_method"
+			],
+			[
+				"remove",
+				"remove_slot_overlay"
+			],
+			[
+				"overl",
+				"overlay_slot_with_progress_spinner"
+			],
+			[
+				"api_re",
+				"api_remove_reserve_slot"
+			],
+			[
+				"schedule_set",
+				"schedule_setup_form"
+			],
+			[
+				"schedule",
+				"schedule_setup_form"
+			],
+			[
+				"day",
+				"days_exist"
+			],
+			[
+				"rese",
+				"reset_family_access_code"
+			],
+			[
+				"account_",
+				"account_default_group_storage_quota_mb"
+			],
+			[
+				"attr",
+				"attribute_types"
+			],
+			[
+				"gee",
+				"generate_referral_keys"
+			],
+			[
+				"oauth",
+				"oauth_popup_warn"
+			],
+			[
+				"embedded_",
+				"embedded_document_id"
+			],
+			[
+				"doc",
+				"document_id"
+			],
+			[
+				"lti_",
+				"lti_course_user"
+			],
+			[
+				"DocumentV",
+				"DocumentVisitAdmin"
+			],
+			[
+				"Embed",
+				"EmbeddedDocumentAdmin"
+			],
+			[
+				"embed",
+				"embedded_document"
+			],
+			[
+				"emb",
+				"embedded_document"
+			],
+			[
+				"embedd",
+				"embedded_document_url"
+			],
+			[
+				"selec",
+				"selected_text"
+			],
+			[
+				"select",
+				"selection_directive"
+			],
+			[
+				"lti_reso",
+				"lti_resource_id"
+			],
+			[
+				"goo",
+				"google_document_id"
+			],
+			[
+				"name",
+				"namespace"
+			],
+			[
+				"document",
+				"document_permissions"
+			],
+			[
+				"access",
+				"access_token_info"
+			],
+			[
+				"Embede",
+				"EmbeddedDocument"
+			],
+			[
+				"datetime",
+				"datetime"
+			],
+			[
+				"request",
+				"request_is_valid"
+			],
+			[
+				"get_",
+				"get_object_or_404"
+			],
+			[
+				"acces",
+				"access_token_info"
+			],
+			[
+				"man",
+				"manually_managed"
+			],
+			[
+				"if",
+				"ifmain	if __name__ == '__main__'"
+			],
+			[
+				"Help",
+				"HelpTopicAdmin	class"
+			],
+			[
+				"help",
+				"help_text	param"
+			],
+			[
+				"Fil",
+				"FilePathField	class"
+			],
+			[
+				"auto",
+				"auto_now_add	False"
+			],
+			[
+				"Date",
+				"DateTimeField	class"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Deploy to Appengine",
+	"command_palette":
+	{
+		"height": 81.0,
+		"selected_items":
+		[
+			[
+				"json",
+				"Indent JSON"
+			],
+			[
+				"inden",
+				"Indent XML"
+			],
+			[
+				"indent",
+				"Indent XML"
+			],
+			[
+				"xml",
+				"Indent XML"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"package contro",
+				"Package Control: List Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"x",
+				"Indent XML"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 146.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/pgower/Git/django_project_template/src/project_name/development.py-tpl",
+		"/C/Users/pgower/Git/django_project_template/src/project_name/production.py-tpl",
+		"/C/Users/pgower/Git/django_project_template/src/project_name/common_settings.py-tpl",
+		"/C/Users/pgower/Git/django_project_template/src/project_name/settings.py-tpl",
+		"/C/Users/pgower/Git/django_project_template/django_project_template.sublime-workspace",
+		"/C/Users/pgower/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/pgower/Git/django_project_template/django_project_template.sublime-project",
+		"/C/Users/pgower/AppEngine/college-shop-scheduler/app/scheduler/models.py",
+		"//wwwsv/c$/inetpub/wwwroot/wpad.dat",
+		"//wwwsv/c$/inetpub/wwwroot/proxy.pac",
+		"/C/Users/pgower/Downloads/Slade Roberts prank call.xspf",
+		"/C/Users/pgower/AppEngine/googledrive-lti/.gitignore",
+		"/C/Users/pgower/AppEngine/college-shop-scheduler/app/backend/views.py",
+		"/C/Users/pgower/AppEngine/college-shop-scheduler/app/backend/jinja2/backend/notifications/created_booking_email.html",
+		"/C/Users/pgower/Downloads/bootstrap (2).zip",
+		"/C/Users/pgower/AppEngine/googledrive-lti/googledrive_lti.sublime-project",
+		"/C/Users/pgower/AppEngine/college-shop-scheduler/college-shop-scheduler.sublime-project",
+		"/C/Users/pgower/AppEngine/college-shop-scheduler/app/backend/jinja2/backend/notifications/cancelled_booking_sms.txt",
+		"/C/Users/pgower/AppEngine/college-shop-scheduler/app/backend/jinja2/backend/notifications/cancelled_booking_email.html",
+		"/C/Users/pgower/AppEngine/college-shop-scheduler/app/backend/apps.py",
+		"/C/Users/pgower/AppEngine/college-shop-scheduler/app/backend/__init__.py",
+		"/C/Users/pgower/AppEngine/college-shop-scheduler/app/scheduler/admin.py",
+		"/C/Users/pgower/AppEngine/college-shop-scheduler/app/backend/models.py",
+		"/C/Users/pgower/AppEngine/college-shop-scheduler/app/collegescheduler/jinja2.py",
+		"/C/Users/pgower/AppEngine/college-shop-scheduler/app/jinja2/partials.html",
+		"/C/Users/pgower/AppEngine/college-shop-scheduler/app/jinja2/base_email.html",
+		"/C/Users/pgower/AppEngine/college-shop-scheduler/app/jinja2/base.html",
+		"/C/Users/pgower/AppEngine/college-shop-scheduler/app/frontend/jinja2/frontend/daygrid.html",
+		"/C/Users/pgower/AppEngine/college-shop-scheduler/app/frontend/jinja2/frontend/pickerpage.html",
+		"/C/Users/pgower/AppEngine/college-shop-scheduler/app/frontend/urls.py",
+		"/C/Users/pgower/AppEngine/college-shop-scheduler/app/frontend/jinja2/frontend/slot.html",
+		"/C/Users/pgower/AppEngine/college-shop-scheduler/app/frontend/signals.py",
+		"/C/Users/pgower/AppEngine/college-shop-scheduler/app/frontend/views.py",
+		"/C/Users/pgower/AppEngine/college-shop-scheduler/app/static/css/main.css",
+		"/C/Users/pgower/AppEngine/college-shop-scheduler/app/backend/forms.py",
+		"/C/Users/pgower/AppEngine/college-shop-scheduler/app/backend/jinja2/backend/dashboard_grid.html",
+		"/C/Users/pgower/AppEngine/college-shop-scheduler/app/backend/jinja2/backend/dashboard.html",
+		"/C/Users/pgower/AppEngine/college-shop-scheduler/app/backend/jinja2/backend/family_list.html",
+		"/C/Users/pgower/AppEngine/college-shop-scheduler/app/backend/urls.py",
+		"/C/Users/pgower/AppEngine/college-shop-scheduler/app/backend/jinja2/backend/family_information.html",
+		"/C/Users/pgower/AppEngine/college-shop-scheduler/app/backend/jinja2/backend/family_import.html",
+		"/C/Users/pgower/AppEngine/college-shop-scheduler/app/backend/jinja2/backend/notifications_table.html",
+		"/C/Users/pgower/AppEngine/college-shop-scheduler/app/backend/tests.py",
+		"/C/Users/pgower/AppEngine/college-shop-scheduler/app/backend/utils.py",
+		"/C/Users/pgower/AppEngine/college-shop-scheduler/app/backend/signals.py",
+		"/C/Users/pgower/AppEngine/college-shop-scheduler/app/backend/jinja2/backend/notifications/cancelled_booking_sms.html",
+		"/C/Users/pgower/AppEngine/college-shop-scheduler/app/backend/jinja2/backend/bookings_sms.html",
+		"/C/Users/pgower/AppEngine/college-shop-scheduler/app/backend/jinja2/backend/bookings_email.html",
+		"/C/Users/pgower/AppEngine/college-shop-scheduler/app/frontend/jinja2/frontend/bookings_email.html",
+		"/C/Users/pgower/AppEngine/college-shop-scheduler/app/jinja2/partials.py",
+		"/C/Users/pgower/AppEngine/college-shop-scheduler/app/jinja2/partials/day_grid.html",
+		"/C/Users/pgower/AppEngine/college-shop-scheduler/app/collegescheduler/settings.py",
+		"/C/Users/pgower/AppEngine/college-shop-scheduler/app/backend/jinja2/backend/schedule_setup_done.htl",
+		"/C/Users/pgower/AppEngine/college-shop-scheduler/app/scheduler/forms.py",
+		"/C/Users/pgower/AppEngine/college-shop-scheduler/app/backend/jinja2/backend/slot_partial.html",
+		"/C/Users/pgower/AppEngine/college-shop-scheduler/app/backend/jinja2/backend/families.html",
+		"/C/Users/pgower/AppEngine/college-shop-scheduler/app/backend/jinja2/backend/login.html",
+		"/C/Users/pgower/AppEngine/college-shop-scheduler/app/backend/jinja2/backend/schedule_editor.html",
+		"/C/Users/pgower/AppEngine/college-shop-scheduler/app/backend/jinja2/backend/schedule_setup.html",
+		"/C/Users/pgower/AppEngine/college-shop-scheduler/app/backend/jinja2/backend/schedule_setup_done.html",
+		"/C/Users/pgower/AppEngine/college-shop-scheduler/app/backend/jinja2/backend/schedule_delete_confirm.html",
+		"/C/Users/pgower/AppEngine/college-shop-scheduler/app/backend/jinja2/backend/slot.html",
+		"/C/Users/pgower/Downloads/SSOStudents.csv",
+		"/C/Users/pgower/AppEngine/college-shop-scheduler/app/static/css/alertify.css",
+		"/C/Users/pgower/AppEngine/college-shop-scheduler/requirements.txt",
+		"//mgmtsv2/SCCMLibrary/JGraingerDee/LP_0890_Keylog_Lanschool.txt",
+		"//mgmtsv2/SCCMLibrary/JGraingerDee/Sarah Schillings KeyLogger.txt",
+		"/C/Users/pgower/AppEngine/college-shop-scheduler/app.yaml",
+		"/C/Users/pgower/AppEngine/college-shop-scheduler/linkenv.ignorefile",
+		"/C/Users/pgower/AppEngine/college-shop-scheduler/app/frontend/templates/frontend/base.html",
+		"/C/Users/pgower/AppEngine/college-shop-scheduler/app/backend/templates/backend/base.html",
+		"/C/Users/pgower/AppEngine/college-shop-scheduler/app/backend/templates/backend/dashboard.html",
+		"/C/Users/pgower/AppEngine/college-shop-scheduler/app/templates/base.html",
+		"/C/Users/pgower/AppEngine/college-shop-scheduler/app/manage.py",
+		"/C/Users/pgower/AppEngine/college-shop-scheduler/app/frontend/jinja2/frontend/landingpage.html",
+		"/C/Users/pgower/AppEngine/college-shop-scheduler/app/collegescheduler/urls.py",
+		"/C/Users/pgower/AppEngine/college-shop-scheduler/app/frontend/templates/frontend/pickerpage.html",
+		"/C/Users/pgower/AppEngine/college-shop-scheduler/app/frontend/templates/frontend/landingpage.html",
+		"/C/Users/pgower/AppEngine/college-shop-scheduler/app/collegescheduler/jinja2",
+		"/C/Users/pgower/Git/PyCanvas/specs/accounts.json",
+		"/C/Users/pgower/Git/PyCanvas/specs/courses.json",
+		"/C/Users/pgower/Git/PyCanvas/pycanvas/apis/base.py",
+		"/C/Users/pgower/Git/PyCanvas/pycanvas/__init__.py",
+		"/C/Users/pgower/Git/PyCanvas/requirements.txt",
+		"/C/Users/pgower/Git/PyCanvas/pycanvas/sections/models/section.py",
+		"/C/Users/pgower/Git/PyCanvas/pycanvas/enrollment_terms/models/enrollment_term.py",
+		"/C/Users/pgower/Git/PyCanvas/pycanvas/enrollments/models/enrollment.py",
+		"/C/Users/pgower/Git/PyCanvas/pycanvas/accounts/accounts.json",
+		"/C/Users/pgower/Git/PyCanvas/pycanvas/accounts/models/account.py",
+		"/C/Users/pgower/Git/PyCanvas/pycanvas/apis/__init__.py",
+		"/C/Users/pgower/Git/PyCanvas/pycanvas/base_model.py",
+		"/C/Users/pgower/Git/PyCanvas/pycanvas/models/__init__.py",
+		"/C/Users/pgower/Git/canvas-sync-2/README.md",
+		"/C/Users/pgower/Git/analytics/README.md",
+		"/C/Users/pgower/AppEngine/googledrive-lti/frontend/static/app/pages/document_picker/document_picker.ts",
+		"/C/Users/pgower/AppEngine/googledrive-lti/frontend/views.py",
+		"/C/Users/pgower/Git/playground/PyCanvas/pycanvas/users/apis/users_api.py",
+		"/C/Users/pgower/Git/playground/PyCanvas/pycanvas/users/apis/__init__.py",
+		"/C/Users/pgower/AppEngine/googledrive-lti/frontend/templates/frontend/index.html",
+		"/C/Users/pgower/AppEngine/googledrive-lti/TODO",
+		"/C/Users/pgower/AppEngine/googledrive-lti/env/Lib/site-packages/oauth2client/contrib/__init__.py",
+		"/C/Users/pgower/AppEngine/googledrive-lti/ltiapp/models.py",
+		"/C/Users/pgower/AppEngine/googledrive-lti/ltiapp/utils.py",
+		"/C/Users/pgower/AppEngine/googledrive-lti/ltiapp/templates/ltiapp/embedded_document_frame.html",
+		"//wwwsv/c$/inetpub/wwwroot/mrbs/config.inc.php",
+		"/C/Users/pgower/AppEngine/googledrive-lti/frontend/templates/frontend.html",
+		"/C/Users/pgower/AppEngine/googledrive-lti/ltiapp/templates/ltiapp/document_picker.html",
+		"/C/Users/pgower/AppEngine/googledrive-lti/frontend/static/app/main.js",
+		"/C/Users/pgower/AppEngine/googledrive-lti/frontend/static/app/app.component.ts",
+		"/C/Users/pgower/AppEngine/googledrive-lti/frontend/static/package.json",
+		"/C/Users/pgower/AppEngine/googledrive-lti/ltiapp/views.py",
+		"/C/Users/pgower/AppEngine/googledrive-lti/app.yaml",
+		"/C/Users/pgower/AppEngine/googledrive-lti/frontend/static/app/main.ts",
+		"/C/Users/pgower/AppEngine/googledrive-lti/frontend/static/typings.json",
+		"/C/Users/pgower/AppEngine/googledrive-lti/frontend/static/systemjs.config.js",
+		"/C/Users/pgower/AppEngine/googledrive-lti/googledrivelti/urls.py",
+		"/C/Users/pgower/AppEngine/googledrive-lti/googledrivelti/settings.py",
+		"/C/Users/pgower/AppEngine/googledrive-lti/frontend/static/app/pages/document_picker/dashboard.css",
+		"/C/Users/pgower/AppEngine/googledrive-lti/frontend/static/app/pages/document_picker/dashboard.ts",
+		"/C/Users/pgower/AppEngine/googledrive-lti/frontend/static/app/pages/document_picker/document_picker.css",
+		"/C/Users/pgower/AppEngine/googledrive-lti/frontend/static/app/pages/document_picker/document_picker.html",
+		"/C/Users/pgower/AppEngine/dj-helpdesk/frontend/systemjs.config.js",
+		"/C/Users/pgower/AppEngine/googledrive-lti/frontend/static/app/app.component.js",
+		"/C/Users/pgower/AppEngine/googledrive-lti/frontend/static/tsconfig.json",
+		"/C/Users/pgower/Git/canvas-sync-2/canvas_sync/aides_timetable_t3_2016.py",
+		"/C/Users/pgower/AppEngine/dj-helpdesk/frontend/package.json",
+		"/C/Users/pgower/AppEngine/googledrive-lti/ltiapp/migrations/0008_auto_20160714_1252.py",
+		"/C/Users/pgower/AppEngine/googledrive-lti/ltiapp/migrations/0008_auto_20160714_1225.py"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"<open folders>",
+			"C:\\Users\\pgower\\AppEngine\\googledrive-lti\\env\\Lib\\site-packages\\oauth2client",
+			"C:\\Users\\pgower\\AppEngine\\googledrive-lti",
+			"C:\\Users\\pgower\\AppEngine\\googledrive-lti\\lib",
+			"<open folders>",
+			"C:\\Users\\pgower\\AppEngine\\googledrive-lti\\lib\\django_app_lti",
+			"C:\\Users\\pgower\\AppEngine\\googledrive-lti\\lib\\django_auth_lti",
+			"<open folders>",
+			"C:\\Users\\pgower\\Git\\GoogleDrive_LTI\\env\\Lib\\site-packages\\httplib2-0.9.2-py2.7.egg\\httplib2",
+			"C:\\Users\\pgower\\Git\\GoogleDrive_LTI\\",
+			"C:\\Users\\pgower\\Git\\GoogleDrive_LTI\\env\\Lib\\site-packages\\django_auth_lti-1.2.5-py2.7.egg"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"time",
+			"loader",
+			"catholic",
+			"css/mail/",
+			"static_file_path",
+			"Created",
+			"booking",
+			"recieve_sms_notifications",
+			"bookings",
+			"success",
+			".success",
+			"success",
+			"pop",
+			"bookings_exist",
+			"pickerpage",
+			"update_slot",
+			"families-li",
+			"families-l;familyfamily",
+			"_",
+			"cap",
+			"capita",
+			"student_row",
+			"parent_row",
+			"student_name",
+			"extract_information",
+			"csv_file",
+			"schedule-edi	",
+			"family_display",
+			"icon-",
+			".bg",
+			"bg-",
+			"bg-war",
+			", ",
+			"d_stream_macro",
+			"enfor",
+			"thank you",
+			"wednesday",
+			"Wednesday",
+			"wednesday",
+			"Wednesday",
+			"wednesday",
+			"Wednesday",
+			"wednesday",
+			"wed",
+			"wenesday",
+			"sunday",
+			"Sunday",
+			"sunday",
+			"Sunday",
+			"sunday",
+			"Sunday",
+			"sunday",
+			"LOGIN",
+			"default",
+			"allowableVa",
+			"values",
+			"allowed",
+			"allow",
+			"\"type\": \"map",
+			"arr",
+			"void",
+			"default",
+			"API_BODY_ATTRIBUTES",
+			"API_FORM_ATTRIBUTES",
+			"API_HEADER_ATTRIBUTES",
+			"API_QUERY_ATTRIBUTES",
+			"_attribute_map",
+			"_attributes(",
+			"_ATTRIBUTES",
+			"_attributes",
+			"ATTRIBUTES",
+			"attributes",
+			"re",
+			"re.",
+			"Datetime",
+			"primary",
+			",",
+			"UserOauth2",
+			"UserOauth",
+			"login_hint",
+			"t2_2016",
+			"email",
+			"unico",
+			"embedded_document_id",
+			"embedded_document_id>\\d+",
+			"rever",
+			"embedded_document",
+			"h1",
+			"user_email",
+			"consumer",
+			"oauth",
+			"oauth_consumer_key",
+			"key",
+			"consumer",
+			"^([0-9\\.]{9}),([0-9\\.]{10}),([A-Za-z0-9 ]*),.*$",
+			"^([0-9\\.]{9}),([0-9\\.]{10}),([A-Za-z0-9 ])*,.*$",
+			"^([0-9\\.]{9}),([0-9\\.]{10}),([A-Za-z0-9 ])+,.*$",
+			"__",
+			"stm",
+			"carbide-ego-128003.appspot.com",
+			"%1",
+			"'",
+			"lib",
+			"space",
+			"course",
+			"title",
+			"embedded_document_id",
+			"Document",
+			"document",
+			"pdb",
+			"{{",
+			"&",
+			"ON_APPENGINE",
+			"url",
+			"import pdb;pdb.set_trace()",
+			"trace",
+			"pdb",
+			"get_oauth_credentials",
+			"context_credentials",
+			"storage",
+			"settings",
+			"storage",
+			"accounts/login",
+			"append",
+			"redirect",
+			"Found valid credentials,",
+			"redirect",
+			"nonce"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\\t",
+			"     ",
+			"\\t",
+			"",
+			" ",
+			"<Placemark><name>$3</name><description>$3</description><Point><coordinates>$1S,$2E</coordinates></Point></Placemark>",
+			"<Placemark><name>$3</name><description>$3</description><Point><coordinates>$1,$2</coordinates></Point></Placemark>",
+			"logging",
+			"$1",
+			"HKEY_CURRENT_USER\\SOFTWARE\\SimonTatham"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 296.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 384.0,
+	"status_bar_visible": true
+}

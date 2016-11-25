@@ -1,0 +1,7 @@
+from django.shortcuts import render
+from psycopg2.extras import (NumericRange,
+                             DateRange,
+                             DateTimeRange,
+                             DateTimeTZRange)
+from django.core.cache import cache
+# Create your views here.

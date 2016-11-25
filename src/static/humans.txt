@@ -7,9 +7,9 @@
 
 # THANKS
 
-    <name>
+    Paul Gower - Awesome Template Maker :)
 
 # TECHNOLOGY COLOPHON
 
     CSS3, HTML5
-    Apache Server Configs, jQuery, Modernizr, Normalize.css
+    jQuery, Font-Awesome, Foundation 6, Vis.js

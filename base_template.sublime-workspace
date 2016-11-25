@@ -264,6 +264,7 @@
 	},
 	"file_history":
 	[
+		"/home/paul/Documents/django_project_template/project_name.sublime-project",
 		"/C/Users/pgower/Git/django_project_template/src/project_name/development.py-tpl",
 		"/C/Users/pgower/Git/django_project_template/src/project_name/production.py-tpl",
 		"/C/Users/pgower/Git/django_project_template/src/project_name/common_settings.py-tpl",
@@ -390,8 +391,7 @@
 		"/C/Users/pgower/AppEngine/googledrive-lti/frontend/static/tsconfig.json",
 		"/C/Users/pgower/Git/canvas-sync-2/canvas_sync/aides_timetable_t3_2016.py",
 		"/C/Users/pgower/AppEngine/dj-helpdesk/frontend/package.json",
-		"/C/Users/pgower/AppEngine/googledrive-lti/ltiapp/migrations/0008_auto_20160714_1252.py",
-		"/C/Users/pgower/AppEngine/googledrive-lti/ltiapp/migrations/0008_auto_20160714_1225.py"
+		"/C/Users/pgower/AppEngine/googledrive-lti/ltiapp/migrations/0008_auto_20160714_1252.py"
 	],
 	"find":
 	{

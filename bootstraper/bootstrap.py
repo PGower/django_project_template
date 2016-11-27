@@ -1,9 +1,33 @@
-REM Setup Python Environment
-virtualenv env
-call env\Scripts\activate.bat
-pip install -r requirements.txt
+import os
+import sys
+import argparse
+import shutil
 
-REM Setup Git Client Side Hooks
+# Expect that python2.7 and virtualenv are installed
 
-REM Setup Docs Folder with Sphinx
-sphinx-quickstart.exe -q --sep --project="{{ project_name }}" --author="Paul Gower" -v "0.1" -r "0.1" -l "en" --suffix=".rst" --master="index" --ext-autodoc --makefile --batchfile ..\..\docs
+class TemplateBootstrapper(object):
+    def __init__(self, name=None, target=None):
+        self.project_name = name
+        self.target_directory = os.path.abspath(target)
+
+        self.setup_virtualenv()
+        self.setup_sphinx()
+
+    def setup_virtualenv(self):
+        print self.target_directory
+
+    def setup_sphinx(self):
+        pass
+
+def main():
+    parser = argparse.ArgumentParser(description='Process some integers.')
+    parser.add_argument('--name', type=str, help='Django project name', required=True)
+    parser.add_argument('--target', type=str, help='Target for the project', required=True)
+
+    args = parser.parse_args(sys.argv[1:])
+    kwargs = vars(args)
+
+    t = TemplateBootstrapper(**kwargs)
+
+if __name__ == '__main__':
+    main()
